@@ -25,7 +25,7 @@ const App = () => {
         setForm({
             ...form,
             [formType]: formName
-        });
+        })
     }
 
     const handleGetWeather = () => {
